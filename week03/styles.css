@@ -1,5 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
+
 body {
   font-family: "Georgia", serif;
   color: black;
@@ -9,4 +10,12 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-color: #F7F3DE;
+  }
+
+  header h1{
+  font-size: 350%;
+  color: #7C1A00;
+  padding: 40px;
+  padding-left: 120px;
+  background-image: url("header-image-1.gif");
   }
