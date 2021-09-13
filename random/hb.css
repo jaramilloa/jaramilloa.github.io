@@ -5,13 +5,13 @@ body{
   background: #D6D0F5;
 }
 h1{
-  font-size: 550%;
-  padding-left: 400px;
+  font-size: 300%;
+  text-align: center;
   color: white;
   font-family: "Lucida Handwriting";
 }
 h2{
-  font-size: 500%;
+  font-size: 300%;
   text-align: center;
   color: white;
   font-family: "Lucida Handwriting"
