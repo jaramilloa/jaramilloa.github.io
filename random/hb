@@ -1,0 +1,19 @@
+@charset "utf-8";
+body{
+  background-color: #D6D0F5;
+}
+h1{
+  font-size: 550%;
+  padding-left: 400px;
+  color: white;
+  font-family: "Lucida Handwriting";
+}
+h2{
+  font-size: 500%;
+  text-align: center;
+  color: white;
+  font-family: "Lucida Handwriting"
+}
+body1{
+  font-size: 180%;
+}
