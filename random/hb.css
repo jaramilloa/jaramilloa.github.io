@@ -5,17 +5,20 @@ body{
   background: #D6D0F5;
 }
 h1{
-  font-size: 300%;
+  font-size: 350%;
   text-align: center;
   color: white;
   font-family: "cursive";
 }
 h2{
-  font-size: 300%;
+  font-size: 350%;
   text-align: center;
   color: white;
   font-family: "cursive"
 }
 body1{
-  font-size: 100%;
+  font-size: 200%;
+}
+body2{
+  font-size: 200%
 }
