@@ -62,7 +62,7 @@ body > * {
 }
 
 main, header, nav, article, aside, footer, section {
-  background-color: hsla(120, 60%, 70%, 0.3);
+  background-color: coral(120, 60%, 70%, 0.3);
   padding: 1%;
 }
 
