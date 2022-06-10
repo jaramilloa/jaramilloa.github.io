@@ -73,7 +73,7 @@ body {
 }
 
 .plate {
-  position: center;
+  position: absolute;
   width: 130px;
   height: 5px;
   background-color: #00bbf9;
@@ -82,7 +82,7 @@ body {
 }
 
 .cake {
-  position: center;
+  position: absolute;
   overflow: hidden;
   width:100px;
   height: 50px;
@@ -95,7 +95,7 @@ body {
 
 .cake:before {
   content:"";
-  position: center;
+  position: absolute;
   background-color: #432818;
   width:10px;
   height:20px;
@@ -106,7 +106,7 @@ body {
 
 .plate:before {
   content:"";
-  position: center;
+  position: absolute;
   background: repeating-linear-gradient(-45deg, #9b5de5, #9b5de5 3px, #00f5d4 3px, #00f5d4 6px);
   width:7px;
   height: 25px;
@@ -116,13 +116,14 @@ body {
 
 .plate:after {
   content:"";
-  position: center;
+  position: absolute;
   width:1px;
   height: 5px;
   background-color: #333;
   top:-80px;
   left:64px;
 }
+
 
 .flame {
   position: center;
