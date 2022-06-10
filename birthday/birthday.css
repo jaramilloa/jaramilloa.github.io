@@ -5,7 +5,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  height:200vh;
+  height:300vh;
   background-color: white;
 }
 
@@ -60,15 +60,15 @@ body {
   font-family: didot;
   text-align: center;
   backface-visibility: hidden;
-  font-size: 30px; 
+  font-size: 60px; 
 }
 
 .happy {
-  top:198px;
+  top:200px;
 }
 
 .toyou {
-  top:123px;
+  top:146px;
 }
 
 .bday {
@@ -81,13 +81,13 @@ body {
 
 .wrap-deco {
   position: absolute;
-  top:-230px;
-  left:-200px;
+  top:-200px;
+  left:-170px;
 }
 
 .decorations {
   position: absolute;
-  width: 400px;
+  width: 500px;
   height: 300px;
   border: 3px solid #333;
   border-radius: 50%;
