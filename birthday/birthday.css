@@ -6,13 +6,13 @@ body {
   align-items: center;
   justify-content: center;
   height:100vh;
-  background-color: #00bbf9;
+  background-color: white;
 }
 
 .birthdayCard {
   position: relative;
   width: 250px;
-  height:350px;
+  height:450px;
   cursor: pointer;
   transform-style: preserve-3d;
   transform: perspective(2500px);
@@ -48,7 +48,7 @@ body {
   position: relative;
   background-color: #fff;
   width: 250px;
-  height:350px;
+  height:450px;
   overflow: hidden;
   transform-origin: left;
   box-shadow: inset 100px 20px 100px rgba(0,0,0,.13), 30px 0 50px rgba(0,0,0,0.1);
@@ -213,7 +213,7 @@ body {
   position: absolute;
   background-color: #fff;
   width: 250px;
-  height:350px;
+  height:450px;
   z-index:-1;
   left:0;
   top:0;
@@ -233,7 +233,7 @@ body {
 }
 
 p {
-  font-family: 'Brush Script MT', cursive;
+  font-family: 'Lucida Handwriting', cursive;
   color: #333;
 }
 
