@@ -5,14 +5,14 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  height:100vh;
+  height:200vh;
   background-color: white;
 }
 
 .birthdayCard {
   position: relative;
-  width: 250px;
-  height:450px;
+  width: 450px;
+  height:650px;
   cursor: pointer;
   transform-style: preserve-3d;
   transform: perspective(2500px);
@@ -47,11 +47,11 @@ body {
 .cardFront {
   position: relative;
   background-color: #fff;
-  width: 250px;
-  height:450px;
+  width: 450px;
+  height:650px;
   overflow: hidden;
   transform-origin: left;
-  box-shadow: inset 100px 20px 100px rgba(0,0,0,.13), 30px 0 50px rgba(0,0,0,0.1);
+  box-shadow: inset 200px 40px 200px rgba(0,0,0,.13), 60px 0 100px rgba(0,0,0,0.1);
   transition: .4s;
 }
 
@@ -60,7 +60,7 @@ body {
   font-family: didot;
   text-align: center;
   backface-visibility: hidden;
-  font-size: 30px; 
+  font-size: 60px; 
 }
 
 .happy {
@@ -87,44 +87,44 @@ body {
 
 .decorations {
   position: absolute;
-  width: 400px;
-  height: 300px;
-  border: 3px solid #333;
+  width: 800px;
+  height: 600px;
+  border: 6px solid #333;
   border-radius: 50%;
 }
 
 .decorations:before, .decorations:after, .decorationsTwo:before, .decorationsTwo:after, .decorationsThree:before, .decorationsThree:after {
   content:"";
   position: absolute;
-  border-left: 20px solid transparent;
-  border-right: 20px solid transparent;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
   width:0;
   height:0;
 }
 
 .decorations:before {
-  border-top: 40px solid #f15bb5;
+  border-top: 80px solid #f15bb5;
   top:297px;
   left:210px;
   transform: rotate(-5deg);
 }
 
 .decorations:after{
-  border-top: 40px solid #f4d35e;
+  border-top: 80px solid #f4d35e;
   top:288px;
   left:260px;
   transform: rotate(-17deg);
 }
 
 .decorationsTwo:before {
-  border-top: 40px solid #00f5d4;
+  border-top: 80px solid #00f5d4;
   top:268px;
   left:315px;
   transform: rotate(-30deg);
 }
 
 .decorationsTwo:after, .decorationsThree:after {
-  border-top: 40px solid #9b5de5;
+  border-top: 80px solid #9b5de5;
   top:238px;
   left:355px;
   transform: rotate(-40deg);
@@ -138,7 +138,7 @@ body {
 }
 
 .decorationsThree:before {
-  border-top: 40px solid #00bbf9;
+  border-top: 80px solid #00bbf9;
   top:268px;
   left:315px;
   transform: rotate(-30deg);
@@ -212,8 +212,8 @@ body {
 .cardInside {
   position: absolute;
   background-color: #fff;
-  width: 250px;
-  height:450px;
+  width: 450px;
+  height:650px;
   z-index:-1;
   left:0;
   top:0;
@@ -222,13 +222,13 @@ body {
 
 .inside-text {
   position: relative;
-  top:-160px;
+  top:-140px;
   transform: scale(0.7);
 }
 
 .wishes {
   position: relative;
-  top:-100px;
+  top:-90px;
   margin: 25px;
 }
 
