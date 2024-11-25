@@ -129,7 +129,7 @@ body {
 
 .flame {
   position: absolute;
-  background-color: #fb5607;
+  background-color: #edff00;
   border-radius: 80% 0 55% 50% / 55% 0 80% 50%;
   transform: rotate(-45deg);
   width:15px;
